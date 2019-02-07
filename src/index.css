@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Open Sens';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('OpenSans Regular'),
+        url(./fonts/opensans.woff2) format('woff2'),
+        url(./fonts/opensans.woff) format('woff'),
+        url(./fonts/opensans.ttf)  format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sens';
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('OpenSans Semibold'),
+        url(./fonts/opensanssemibold.woff2) format('woff2'),
+        url(./fonts/opensanssemibold.woff) format('woff'),
+        url(./fonts/opensanssemibold.ttf)  format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sens';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('OpenSans Bold'),
+        url(./fonts/opensansbold.woff2) format('woff2'),
+        url(./fonts/opensansbold.woff) format('woff'),
+        url(./fonts/opensansbold.ttf)  format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sens';
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('OpenSans Extrabold'),
+        url(./fonts/opensansextrabold.woff2) format('woff2'),
+        url(./fonts/opensansextrabold.woff) format('woff'),
+        url(./fonts/opensansextrabold.ttf)  format('truetype');
+}
+
+@font-face {
+    font-family: 'Open Sens';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('OpenSans Light'),
+        url(./fonts/opensanslight.woff2) format('woff2'),
+        url(./fonts/opensanslight.woff) format('woff'),
+        url(./fonts/opensanslight.ttf)  format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Barkentina';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: local('Barkentina Regular'),
+        url(./fonts/barkentina.ttf) format('truetype'),
+        url(./fonts/barkentina.woff) format('woff'),
+        url(./fonts/barkentina.woff2)  format('woff2');
+}
+
+body {
+    font-family: 'Open Sens';
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.barkentina {
+    font-family: 'Barkentina', sans-serif;
+    font-weight: normal;
+}
+
+.open-sans {
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
